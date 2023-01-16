@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  background: url("../img/bg2.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.left {
+  color: #000;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+
+.left img {
+  width: 100px;
+  border-radius: 13px;
+}
+
+.left div {
+  line-height: 19px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 30px;
+  display: inline-block;
+  /* border: 2px solid green; */
+}
+
+.mid {
+  display: block;
+  width: 56%;
+  margin: 29px auto;
+  /* border: 2px solid yellow; */
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 0 9px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(91, 86, 86);
+}
+
+.container1 {
+  border: 2px solid white;
+  margin: 70px 80px;
+  padding: 24px 33px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.from-group input {
+  font-family: "Baloo Bhai 2", cursive;
+  text-align: center;
+  display: block;
+  width: 500px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.container1>h1 {
+  text-align: center;
+  color: orangered;
+  font-size: 40px;
+}
+
+.container1 button {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
+
+#container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+#row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: black;
+  padding: 70px 0;
+  margin-top: auto;
+}
+
+#footer-col {
+  width: 25%;
+  /* padding: 0 10px; */
+}
+
+#footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+#footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+#footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+#footer-col ul li {
+  color: #bbbbbb;
+  font-size: 16px;
+  font-weight: 300;
+  display: block;
+}

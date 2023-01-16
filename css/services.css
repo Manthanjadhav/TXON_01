@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/services.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+.left {
+  color: #000;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+
+.left img {
+  width: 100px;
+  border-radius: 13px;
+}
+
+.left div {
+  line-height: 19px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 30px;
+  display: inline-block;
+  /* border: 2px solid green; */
+}
+
+.mid {
+  display: block;
+  width: 56%;
+  margin: 29px auto;
+  /* border: 2px solid yellow; */
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 0 9px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(91, 86, 86);
+}
+
+#services {
+  padding: 50px 0px;
+}
+
+.services-info {
+  text-align: center;
+}
+
+.services-info {
+  margin-top: -50px;
+  font-size: 50px;
+}
+
+.services-info h1 {
+  font-size: 50px;
+}
+
+.services-info p {
+  margin-top: -10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.services-row {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 3em;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.services-box {
+  /* box-shadow: 2px 3px 5px grey; */
+  padding: 10px;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.services-box p {
+  padding-top: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.services-box h2 {
+  padding-bottom: 0;
+  text-align: center;
+  color: #ff1a75;
+}
+
+.services-box img {
+  width: 60px;
+  height: 60px;
+  background: #0984e3;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 100px;
+  border: 2px solid black;
+}
+
+.services-box:hover {
+  background-color: rgba(167, 198, 231, 0.426);
+}

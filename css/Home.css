@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+.left {
+  color: #000;
+  position: fixed;
+  z-index: 99999;
+  left: 60px;
+  top: 20px;
+  display: inline-block;
+}
+
+.left img {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.left div {
+  line-height: 19px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.right {
+  position: fixed;
+  z-index: 99999;
+  right: 34px;
+  top: 30px;
+  display: inline-block;
+}
+
+.mid {
+  display: block;
+  width: 56%;
+  margin: 29px auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9999999;
+  display: flex;
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  justify-content: space-between;
+  top: 0;
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.btn>a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(91, 86, 86);
+}
+
+.btn1 {
+  margin-top: 2rem;
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+  font-family: "Baloo Bhai 2", cursive;
+  background: orangered;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.btn1>a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn1:hover {
+  background: transparent;
+}
+
+.intro {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+}
+
+.intro>h2 {
+  display: block;
+  width: 48%;
+}
+
+.intro>p {
+  display: block;
+  width: 48%;
+}
+
+.intro>h2 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.intro>p {
+  font-size: 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 800px;
+  width: 33.3%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card>p {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.card>h2 {
+  text-transform: uppercase;
+}
+
+/* footer {
+    width: 100%;
+    letter-spacing: 1.2px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(../img/pic15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foo1 {
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+#foot1 {
+    position: relative;
+    width: 25%;
+}
+
+#foot2 {
+    position: relative;
+    width: 25%;
+}
+
+#foot3 {
+    position: relative;
+    width: 25%;
+}
+
+#foot4 {
+    position: relative;
+    width: 25%;
+}
+
+#overlay6 {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: white;
+}
+
+#overlay6>#lo {
+    color: rgb(233, 188, 133);
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+#foo2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#foo>#manthan {
+    font-size: medium;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+} */
